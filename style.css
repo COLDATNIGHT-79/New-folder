@@ -5,7 +5,7 @@ body, html {
 }
 .bg-image {
     /* Use a high resolution image */
-    background-image: url('C:\mvnes.png');
+    background-image: url('mvnes.png');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -19,7 +19,7 @@ body, html {
 }
 @font-face {
     font-family: 'Akira';
-    src: url('C:/Akira.ttf') format('truetype');
+    src: url('Akira.ttf') format('truetype');
 }
 .button-container a {
     display: inline-block;
