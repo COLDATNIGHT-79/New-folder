@@ -37,7 +37,12 @@ h2{
 h2 a:hover{
     color: rgb(130, 130, 130);
 }
-
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure full width */
+}
 header .nav a{
     color: rgb(216, 216, 216);
     text-decoration: none;
