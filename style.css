@@ -33,14 +33,7 @@ h2{
     color: rgb(216, 216, 216);
     text-decoration: none;
 }
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Stack children vertically */
-    height: 100%; /* Take full height of its parent */
-    width: 100%; /* Take full width of its parent */
-}
+
 h2 a:hover{
     color: rgb(130, 130, 130);
 }
