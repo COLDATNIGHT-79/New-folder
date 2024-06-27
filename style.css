@@ -33,7 +33,19 @@ h2{
     color: rgb(216, 216, 216);
     text-decoration: none;
 }
+.iframe-container {
+    border: 4px solid transparent; /* Initial border */
+    animation: border-color-change 5s infinite; /* Animation name, duration, and loop */
+}
 
+/* Keyframes for the color cycling */
+@keyframes border-color-change {
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: yellow; }
+    100% { border-color: red; }
+}
 h2 a:hover{
     color: rgb(130, 130, 130);
 }
